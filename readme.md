@@ -28,14 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/kensiecodes/nft-preview-card-component-main/blob/main/images/NFTfinalss.JPG)
 
 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-page-completed-xtvea4Y6n)
+- Live Site URL: [Vercel](https://nft-preview-card-component-main-six.vercel.app/)
 
 ## My process
 
@@ -52,7 +52,7 @@ I always try to round out the full HTML mark-up before ever moving on to CSS. At
 
 ### What I learned
  
-While I didn't use it, I learned about *, the all elements selector while picking through documentation. I feel my brain starting to understand the workflow of Flexbox from the markup to stylesheet. 
+While I didn't use it, I learned about *, the all elements selector while picking through documentation. Will be taking note of this for future use. I feel my brain starting to understand the workflow of Flexbox from the markup to stylesheet. 
 
 My major challenge in this project was figuring out the NFT :hover transition. Applying the image AND the color overlay seemed a little daunting at first, but I challenged myself to mess with it without doing any searching. After some finessing, I had my eureka moment:
 
