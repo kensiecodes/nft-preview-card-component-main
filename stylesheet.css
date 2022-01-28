@@ -1,0 +1,180 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size:10px;
+    background: hsl(217, 54%, 11%);
+    color:hsl(215, 51%, 70%);
+    padding: 50px 0 0 0;
+    margin:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+   
+}
+
+#container {
+    width:375px;
+    height:100%;
+    
+    z-index:2;
+}
+
+#card {
+    background: hsl(216, 50%, 16%);
+    width:325px;
+    height:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    border-radius:20px;
+    align-items:center;
+    box-shadow: -10px 15px 60px -12px hsl(216, 53%, 7%);
+    margin-top:  10vh;
+    
+}
+
+#card > div, p {
+    width:275px;
+    margin:0;
+    
+}
+
+#cardTitle {
+    color:white;
+    width:275px;
+    transition: 0.6s;
+}
+
+#cardTitle:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+p {
+    font-size:14px;
+    font-weight:300;
+}
+
+#imgContainer {
+    width:275px;
+    height:275px;
+    padding-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+#NFTimg {
+    position:absolute;
+    border-radius:12px;
+    width:275px;
+}
+
+#overlay {
+    background-color:hsl(178, 100%, 50%);
+    z-index:3;
+    width:275px;
+    height:275px;
+    border-radius:12px;
+    position:absolute;
+    opacity:0%;
+    transition:0.6s;
+}
+
+#viewHover {
+    position:absolute;
+    margin:0;
+    z-index:4;
+    opacity:0%;
+    transition: 0.6s;
+}
+
+#imgContainer:hover #viewHover {
+    opacity:90%;
+}
+
+#imgContainer:hover #overlay {
+    opacity:50%;
+}
+
+#cardPriceAndTime {
+    display:inline-flex;
+    justify-content: space-between;
+   border-bottom: 1px solid hsl(215, 32%, 27%);
+   
+}
+
+#cardPriceAndTime img {
+   float:left;
+   padding-right:7px;
+}
+
+#cardPriceAndTime h2 {
+    font-weight:400;
+}
+
+#price {
+    color:hsl(178, 100%, 50%);
+  
+}
+
+
+
+#cardFooter {
+    display:inline-flex;
+    display:flex-start;
+}
+
+
+#cardFooter img {
+    width:30px;
+    margin: 15px 0;
+   border: 1px white solid;
+   border-radius:50%;
+}
+
+#cardFooter p {
+    margin-top:22px;
+    margin-left:15px;
+}
+
+#authorName {
+    color: hsl(0, 0%, 100%);
+    transition:0.6s;
+}
+
+#authorName:hover {
+    color:hsl(178, 100%, 50%);
+    
+}
+
+footer {
+    z-index:1;
+    position:absolute;
+    width:325px;
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+footer p {
+    width:325px;
+}
+
+footer a {
+    color:white;
+    transition:0.6s;
+    text-decoration:none;
+}
+footer a:hover {
+    color:hsl(343, 94%, 59%);
+    
+}
+@media screen and (min-width:376px) {
+    #card {
+    
+}
+}
